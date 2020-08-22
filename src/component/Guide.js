@@ -1,6 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 function Guide(){
+    useEffect(() => {
+        const url = window.location.pathname
+        const guide1 = document.querySelectorAll('#guide_1 li')
+        console.dir(guide1)
+        if(url === '/'){
+            guide1[0].classList.add('li_active')
+        }
+    })
     return(
     <div id="guide">
             <div className="guide_division" id="guide_1">
