@@ -77,7 +77,7 @@ function App() {
             time: '8개월 전'
         },
         {
-            id: 6,
+            id: 7,
             url: 'video_url',
             img: 'images/video_img.png',
             profile: 'images/video_profile.png',
@@ -87,7 +87,7 @@ function App() {
             time: '8개월 전'
         },
         {
-            id: 6,
+            id: 8,
             url: 'video_url',
             img: 'images/video_img.png',
             profile: 'images/video_profile.png',
@@ -97,7 +97,7 @@ function App() {
             time: '8개월 전'
         },
         {
-            id: 6,
+            id: 9,
             url: 'video_url',
             img: 'images/video_img.png',
             profile: 'images/video_profile.png',
@@ -107,7 +107,7 @@ function App() {
             time: '8개월 전'
         },
         {
-            id: 6,
+            id: 10,
             url: 'video_url',
             img: 'images/video_img.png',
             profile: 'images/video_profile.png',
@@ -117,7 +117,7 @@ function App() {
             time: '8개월 전'
         },
         {
-            id: 6,
+            id: 11,
             url: 'video_url',
             img: 'images/video_img.png',
             profile: 'images/video_profile.png',
@@ -127,7 +127,7 @@ function App() {
             time: '8개월 전'
         },
         {
-            id: 6,
+            id: 12,
             url: 'video_url',
             img: 'images/video_img.png',
             profile: 'images/video_profile.png',
@@ -137,7 +137,7 @@ function App() {
             time: '8개월 전'
         },
         {
-            id: 6,
+            id: 13,
             url: 'video_url',
             img: 'images/video_img.png',
             profile: 'images/video_profile.png',
@@ -157,7 +157,7 @@ function App() {
 						<div id="grid_video_wrapper">
                             {
                                 videos.map((item, index)=>{
-                                    return <Video id={index} videos={videos}/>
+                                    return <Video key={videos[index].id} id={index} videos={videos}/>
                                 })
                             }
 						</div>
