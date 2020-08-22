@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/MyTube_react/static/css/main.e53975ae.chunk.css",
-    "main.js": "/MyTube_react/static/js/main.d85280c7.chunk.js",
-    "main.js.map": "/MyTube_react/static/js/main.d85280c7.chunk.js.map",
+    "main.js": "/MyTube_react/static/js/main.b7f9d786.chunk.js",
+    "main.js.map": "/MyTube_react/static/js/main.b7f9d786.chunk.js.map",
     "runtime-main.js": "/MyTube_react/static/js/runtime-main.66940108.js",
     "runtime-main.js.map": "/MyTube_react/static/js/runtime-main.66940108.js.map",
     "static/js/2.2f84f910.chunk.js": "/MyTube_react/static/js/2.2f84f910.chunk.js",
     "static/js/2.2f84f910.chunk.js.map": "/MyTube_react/static/js/2.2f84f910.chunk.js.map",
     "index.html": "/MyTube_react/index.html",
-    "precache-manifest.c8a921e76da21eb2e314cc5bde61e644.js": "/MyTube_react/precache-manifest.c8a921e76da21eb2e314cc5bde61e644.js",
+    "precache-manifest.330800445e5a13d42eb2d7741bff2607.js": "/MyTube_react/precache-manifest.330800445e5a13d42eb2d7741bff2607.js",
     "service-worker.js": "/MyTube_react/service-worker.js",
     "static/css/main.e53975ae.chunk.css.map": "/MyTube_react/static/css/main.e53975ae.chunk.css.map",
     "static/js/2.2f84f910.chunk.js.LICENSE.txt": "/MyTube_react/static/js/2.2f84f910.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.66940108.js",
     "static/js/2.2f84f910.chunk.js",
     "static/css/main.e53975ae.chunk.css",
-    "static/js/main.d85280c7.chunk.js"
+    "static/js/main.b7f9d786.chunk.js"
   ]
 }
