@@ -2,7 +2,6 @@ import React from 'react'
 
 function Video(props) {
     const {id, videos} = props
-    console.log(id, videos[id])
 	return (
 		<div className="grid_video">
 			<div className="video_img">

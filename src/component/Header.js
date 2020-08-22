@@ -4,7 +4,7 @@ function Header(){
     return(
         <div id="header">
             <div id="start">
-                <img className="img_button" id="guide_icon" alt="guide_icon" src="./images/guide_icon.png"/>
+                <img className="img_button" id="guide_icon" alt="guide_icon" src="images/guide_icon.png"/>
                 <img className="img_button" id="youtube_logo" alt="youtube_logo" src="images/youtube_logo.png"/>
             </div>
             <div id="center">
