@@ -1,7 +1,5 @@
 import React from 'react'
 
-
-
 function Video(props) {
     const {id, videos} = props
     console.log(id, videos[id])
@@ -21,7 +19,9 @@ function Video(props) {
 				<div className="video_text">
 					<div className="video_title">{videos[id].title}</div>
 					<div className="video_name">
-						<a href="#video_name">{videos[id].name}</a>
+						<a href={videos[id].name}>
+                            {videos[id].name}
+                        </a>
 					</div>
 					<div className="video_viewAndTime">조회수 {videos[id].view}회 ㆍ {videos[id].time}</div>
 				</div>
