@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f5909302415c346469badb4916e6027d",
+    "revision": "46665424758e0f5bac071478194e1b30",
     "url": "/MyTube_react/index.html"
   },
   {
-    "revision": "c1283ba9a54bdcd022e5",
+    "revision": "67131665dadbbb29511b",
     "url": "/MyTube_react/static/css/main.e53975ae.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MyTube_react/static/js/2.2f84f910.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c1283ba9a54bdcd022e5",
-    "url": "/MyTube_react/static/js/main.6657cc1f.chunk.js"
+    "revision": "67131665dadbbb29511b",
+    "url": "/MyTube_react/static/js/main.9a68af86.chunk.js"
   },
   {
     "revision": "bb713c0a1c5be6e94041",
