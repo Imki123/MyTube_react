@@ -3,6 +3,7 @@ import './App.css'
 import Header from './component/Header'
 import Guide from './component/Guide'
 import Video from './component/Video'
+import Content from './component/Content'
 
 function App() {
 	const videos=[
@@ -152,17 +153,13 @@ function App() {
 			<Header />
 			<div id="body_container">
 				<Guide />
-				<div id="content">
-					<div id="grid">
-						<div id="grid_video_wrapper">
-                            {
-                                videos.map((item, index)=>{
-                                    return <Video key={videos[index].id} id={index} videos={videos}/>
-                                })
-                            }
-						</div>
-					</div>
-				</div>
+                <Content>
+                    {
+                        videos.map((item, index)=>{
+                            return <Video key={videos[index].id} id={index} videos={videos}/>
+                        })
+                    }
+                </Content>
 			</div>
 		</>
 	)

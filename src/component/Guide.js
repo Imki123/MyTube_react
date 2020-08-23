@@ -2,10 +2,12 @@ import React, { useEffect } from 'react'
 
 function Guide(){
     useEffect(() => {
-        const url = window.location.pathname
+        let pathname = window.location.pathname
+        console.log(pathname)
+        pathname = pathname.replace('MyTube_react/', '') //for web Server
         const guide1 = document.querySelectorAll('#guide_1 li')
-        console.dir(guide1)
-        if(url === '/'){
+
+        if(pathname === '/'){
             guide1[0].classList.add('li_active')
         }
     })
