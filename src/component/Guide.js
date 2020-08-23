@@ -14,49 +14,49 @@ function Guide(){
     return(
     <div id="guide">
             <div className="guide_division" id="guide_1">
-                <ul><li><img alt="home_icon_red" src="images/home_icon_red.png"/>홈</li>
-                    <li><img alt="trending_icon_gray" src="images/trending_icon_gray.png"/>인기</li>
-                    <li><img alt="subscribtions_icon_gray" src="images/subscribtions_icon_gray.png"/>구독</li>
-                    <li><img alt="originals_icon_gray" src="images/originals_icon_gray.png"/>Originals</li>
+                <ul><li><img alt="home_icon_red" src={process.env.PUBLIC_URL+"/images/home_icon_red.png"}/>홈</li>
+                    <li><img alt="trending_icon_gray" src={process.env.PUBLIC_URL+"/images/trending_icon_gray.png"}/>인기</li>
+                    <li><img alt="subscribtions_icon_gray" src={process.env.PUBLIC_URL+"/images/subscribtions_icon_gray.png"}/>구독</li>
+                    <li><img alt="originals_icon_gray" src={process.env.PUBLIC_URL+"/images/originals_icon_gray.png"}/>Originals</li>
                 </ul>
             </div>
             <div className="guide_division" id="guide_2">
                 <ul>
-                    <li><img alt="library_icon_gray" src="images/library_icon_gray.png"/>보관함</li>
-                    <li><img alt="history_icon_gray" src="images/history_icon_gray.png"/>시청 기록</li>
-                    <li><img alt="my_videos_icon_gray" src="images/my_videos_icon_gray.png"/>내 동영상</li>
-                    <li><img alt="purchases_icon_gray" src="images/purchases_icon_gray.png"/>구입한 동영상</li>
-                    <li><img alt="wl_icon_gray" src="images/wl_icon_gray.png"/>나중에 볼 동영상</li>
-                    <li><img alt="more_icon_gray" src="images/more_icon_gray.png"/>더보기</li>
+                    <li><img alt="library_icon_gray" src={process.env.PUBLIC_URL+"/images/library_icon_gray.png"}/>보관함</li>
+                    <li><img alt="history_icon_gray" src={process.env.PUBLIC_URL+"/images/history_icon_gray.png"}/>시청 기록</li>
+                    <li><img alt="my_videos_icon_gray" src={process.env.PUBLIC_URL+"/images/my_videos_icon_gray.png"}/>내 동영상</li>
+                    <li><img alt="purchases_icon_gray" src={process.env.PUBLIC_URL+"/images/purchases_icon_gray.png"}/>구입한 동영상</li>
+                    <li><img alt="wl_icon_gray" src={process.env.PUBLIC_URL+"/images/wl_icon_gray.png"}/>나중에 볼 동영상</li>
+                    <li><img alt="more_icon_gray" src={process.env.PUBLIC_URL+"/images/more_icon_gray.png"}/>더보기</li>
                 </ul>
             </div>
             <div className="guide_division" id="guide_3">
                 <ul>
                     <li className="no_hover">구독</li>
-                    <li><img alt="subscribtions_profile" src="images/subscribtions_profile.png"/>크림히어로즈</li>
-                    <li><img alt="subscribtions_profile" src="images/subscribtions_profile.png"/>크림히어로즈</li>
-                    <li><img alt="subscribtions_profile" src="images/subscribtions_profile.png"/>크림히어로즈</li>
-                    <li><img alt="subscribtions_profile" src="images/subscribtions_profile.png"/>크림히어로즈</li>
-                    <li><img alt="subscribtions_profile" src="images/subscribtions_profile.png"/>크림히어로즈</li>
-                    <li><img alt="subscribtions_profile" src="images/subscribtions_profile.png"/>크림히어로즈</li>
-                    <li><img alt="subscribtions_profile" src="images/more_icon_gray.png"/>더보기</li>
+                    <li><img alt="subscribtions_profile" src={process.env.PUBLIC_URL+"/images/subscribtions_profile.png"}/>크림히어로즈</li>
+                    <li><img alt="subscribtions_profile" src={process.env.PUBLIC_URL+"/images/subscribtions_profile.png"}/>크림히어로즈</li>
+                    <li><img alt="subscribtions_profile" src={process.env.PUBLIC_URL+"/images/subscribtions_profile.png"}/>크림히어로즈</li>
+                    <li><img alt="subscribtions_profile" src={process.env.PUBLIC_URL+"/images/subscribtions_profile.png"}/>크림히어로즈</li>
+                    <li><img alt="subscribtions_profile" src={process.env.PUBLIC_URL+"/images/subscribtions_profile.png"}/>크림히어로즈</li>
+                    <li><img alt="subscribtions_profile" src={process.env.PUBLIC_URL+"/images/subscribtions_profile.png"}/>크림히어로즈</li>
+                    <li><img alt="subscribtions_profile" src={process.env.PUBLIC_URL+"/images/more_icon_gray.png"}/>더보기</li>
                 </ul>
             </div>
             <div className="guide_division" id="guide_4">
                 <ul>
                     <li className="no_hover">YOUTUBE 더보기</li>
-                    <li><img alt="movie_icon_gray" src="images/movie_icon_gray.png"/>영화</li>
-                    <li><img alt="movie_icon_gray" src="images/movie_icon_gray.png"/>게임</li>
-                    <li><img alt="movie_icon_gray" src="images/movie_icon_gray.png"/>실시간</li>
-                    <li><img alt="movie_icon_gray" src="images/movie_icon_gray.png"/>학습</li>
+                    <li><img alt="movie_icon_gray" src={process.env.PUBLIC_URL+"/images/movie_icon_gray.png"}/>영화</li>
+                    <li><img alt="movie_icon_gray" src={process.env.PUBLIC_URL+"/images/movie_icon_gray.png"}/>게임</li>
+                    <li><img alt="movie_icon_gray" src={process.env.PUBLIC_URL+"/images/movie_icon_gray.png"}/>실시간</li>
+                    <li><img alt="movie_icon_gray" src={process.env.PUBLIC_URL+"/images/movie_icon_gray.png"}/>학습</li>
                 </ul>
             </div>
             <div className="guide_division" id="guide_5">
                 <ul>
-                    <li><img alt="movie_icon_gray" src="images/movie_icon_gray.png"/>설정</li>
-                    <li><img alt="movie_icon_gray" src="images/movie_icon_gray.png"/>신고 기록</li>
-                    <li><img alt="movie_icon_gray" src="images/movie_icon_gray.png"/>고객센터</li>
-                    <li><img alt="movie_icon_gray" src="images/movie_icon_gray.png"/>의견보내기</li>
+                    <li><img alt="movie_icon_gray" src={process.env.PUBLIC_URL+"/images/movie_icon_gray.png"}/>설정</li>
+                    <li><img alt="movie_icon_gray" src={process.env.PUBLIC_URL+"/images/movie_icon_gray.png"}/>신고 기록</li>
+                    <li><img alt="movie_icon_gray" src={process.env.PUBLIC_URL+"/images/movie_icon_gray.png"}/>고객센터</li>
+                    <li><img alt="movie_icon_gray" src={process.env.PUBLIC_URL+"/images/movie_icon_gray.png"}/>의견보내기</li>
                 </ul>
             </div>
             <div className="guide_division" id="guide_6">
