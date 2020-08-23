@@ -1,5 +1,5 @@
 import React from 'react'
-import {BrowserRouter, Switch, Route, Link} from 'react-router-dom' 
+import {Switch, Route} from 'react-router-dom' 
 import './App.css'
 import Header from './component/Header'
 import Guide from './component/Guide'
@@ -150,25 +150,30 @@ function App() {
         },
     ]
 	return (
-		<BrowserRouter>
+        <>
 			<Header />
 			<div id="body_container">
-				<Guide />
-                <Content>
-                    {
-                        videos.map((item, index)=>{
-                            return <Video key={videos[index].id} id={index} videos={videos}/>
-                        })
-                    }
-                    <Link to="/">Home</Link>
-                    <Switch>
-                        <Route path="/mytube_react" exact>
-                            <h2>Home</h2>
-                        </Route>
-                    </Switch>
-                </Content>
+				
+                <Switch>
+                    <Route path="/mytube_react/" exact>
+                        <Guide />
+                        <Content>
+                            {
+                                videos.map((item, index)=>{
+                                    return <Video key={videos[index].id} id={index} videos={videos}/>
+                                })
+                            }
+                        </Content>
+                    </Route>
+                    <Route path="/mytube_react/trending">
+                        <Guide />
+                        <Content>
+                            <h2>trending</h2>
+                        </Content>
+                    </Route>
+                </Switch>
 			</div>
-		</BrowserRouter>
+        </>
 	)
 }
 

@@ -3,6 +3,7 @@
 }
 html{
   font-size: 14px;
+  margin: 0px;
 }
 body{
   margin: 0px;
@@ -29,12 +30,21 @@ a:hover { color: inherit; text-decoration: inherit;}
   background-color: inherit !important;
   cursor: inherit !important;
 }
+
 .li_active{
+  display: block;
   background: #e5e5e5;
 }
 .li_active:hover{
   background: rgba(0,0,0,0.2) !important;
 }
+.li_active li{
+  background: #e5e5e5;
+}
+.li_active li:hover{
+  background: rgba(0,0,0,0.2) !important;
+}
+
 
 
 

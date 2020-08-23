@@ -1,20 +1,13 @@
 import React, { useEffect } from 'react'
+import {Switch, Route, Link, NavLink} from 'react-router-dom' 
 
 function Guide(){
-    useEffect(() => {
-        let pathname = window.location.pathname
-        console.log(pathname)
-        const guide1 = document.querySelectorAll('#guide_1 li')
-
-        if(pathname === '/mytube_react'){
-            guide1[0].classList.add('li_active')
-        }
-    })
     return(
     <div id="guide">
             <div className="guide_division" id="guide_1">
-                <ul><li><img alt="home_icon_red" src={process.env.PUBLIC_URL+"/images/home_icon_red.png"}/>홈</li>
-                    <li><img alt="trending_icon_gray" src={process.env.PUBLIC_URL+"/images/trending_icon_gray.png"}/>인기</li>
+                <ul>
+                    <NavLink to="/mytube_react/" exact activeClassName="li_active"><li><img alt="home_icon_red" src={process.env.PUBLIC_URL+"/images/home_icon_red.png"}/>홈</li></NavLink>
+                    <NavLink to="/mytube_react/trending" activeClassName="li_active"><li><img alt="trending_icon_gray" src={process.env.PUBLIC_URL+"/images/trending_icon_gray.png"}/>인기</li></NavLink>
                     <li><img alt="subscribtions_icon_gray" src={process.env.PUBLIC_URL+"/images/subscribtions_icon_gray.png"}/>구독</li>
                     <li><img alt="originals_icon_gray" src={process.env.PUBLIC_URL+"/images/originals_icon_gray.png"}/>Originals</li>
                 </ul>
