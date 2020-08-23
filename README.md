@@ -1,5 +1,5 @@
 # mytube_react
-##### https://imki123.github.io/mytube_react/
+##### https://imki123.github.io/mytube_react
 Clone app of Youtube using react
 
 # How to use
