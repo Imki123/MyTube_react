@@ -4,10 +4,9 @@ function Guide(){
     useEffect(() => {
         let pathname = window.location.pathname
         console.log(pathname)
-        pathname = pathname.replace('MyTube_react/', '') //for web Server
         const guide1 = document.querySelectorAll('#guide_1 li')
 
-        if(pathname === '/'){
+        if(pathname === '/mytube_react'){
             guide1[0].classList.add('li_active')
         }
     })

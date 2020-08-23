@@ -162,7 +162,7 @@ function App() {
                     }
                     <Link to="/">Home</Link>
                     <Switch>
-                        <Route path="/" exact>
+                        <Route path="/mytube_react" exact>
                             <h2>Home</h2>
                         </Route>
                     </Switch>
