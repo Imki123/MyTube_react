@@ -10,6 +10,7 @@ npm start
 
 In developing...
 
-2020-08-22 : header, guide, content
+2020-08-22 : header, guide, Video  
+2020-08-23 : content, router
 
 Thanks :D
