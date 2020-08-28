@@ -5,7 +5,7 @@ function Video(props) {
 	return (
 		<div className="grid_video">
 			<div className="video_img">
-				<a href={videos[id].url}>
+				<a href={`/mytube_react/watch?v=${videos[id].url}`}>
 					<img alt="" src={videos[id].img} />
 				</a>
 			</div>

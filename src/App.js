@@ -5,12 +5,13 @@ import Header from './component/Header'
 import Guide from './component/Guide'
 import Video from './component/Video'
 import Content from './component/Content'
+import Watch from './component/Watch'
 
 function App() {
 	const videos=[
         {
             id: 0,
-            url: 'video_url',
+            url: 'HRY1jHX2YTc',
             img: process.env.PUBLIC_URL+'/images/video_img.png',
             profile: process.env.PUBLIC_URL+'/images/video_profile.png',
             title: '루루가 디디에게 덤볐어요!',
@@ -20,7 +21,7 @@ function App() {
         },
         {
             id: 1,
-            url: 'video_url',
+            url: 'HRY1jHX2YTc',
             img: process.env.PUBLIC_URL+'/images/video_img.png',
             profile: process.env.PUBLIC_URL+'/images/video_profile.png',
             title: '루루가 디디에게 덤볐어요!',
@@ -30,7 +31,7 @@ function App() {
         },
         {
             id: 2,
-            url: 'video_url',
+            url: 'HRY1jHX2YTc',
             img: process.env.PUBLIC_URL+'/images/video_img.png',
             profile: process.env.PUBLIC_URL+'/images/video_profile.png',
             title: '루루가 디디에게 덤볐어요!',
@@ -40,7 +41,7 @@ function App() {
         },
         {
             id: 3,
-            url: 'video_url',
+            url: 'HRY1jHX2YTc',
             img: process.env.PUBLIC_URL+'/images/video_img.png',
             profile: process.env.PUBLIC_URL+'/images/video_profile.png',
             title: '루루가 디디에게 덤볐어요!',
@@ -50,7 +51,7 @@ function App() {
         },
         {
             id: 4,
-            url: 'video_url',
+            url: 'HRY1jHX2YTc',
             img: process.env.PUBLIC_URL+'/images/video_img.png',
             profile: process.env.PUBLIC_URL+'/images/video_profile.png',
             title: '루루가 디디에게 덤볐어요!',
@@ -60,7 +61,7 @@ function App() {
         },
         {
             id: 5,
-            url: 'video_url',
+            url: 'HRY1jHX2YTc',
             img: process.env.PUBLIC_URL+'/images/video_img.png',
             profile: process.env.PUBLIC_URL+'/images/video_profile.png',
             title: '루루가 디디에게 덤볐어요!',
@@ -70,7 +71,7 @@ function App() {
         },
         {
             id: 6,
-            url: 'video_url',
+            url: 'HRY1jHX2YTc',
             img: process.env.PUBLIC_URL+'/images/video_img.png',
             profile: process.env.PUBLIC_URL+'/images/video_profile.png',
             title: '루루가 디디에게 덤볐어요!',
@@ -80,7 +81,7 @@ function App() {
         },
         {
             id: 7,
-            url: 'video_url',
+            url: 'HRY1jHX2YTc',
             img: process.env.PUBLIC_URL+'/images/video_img.png',
             profile: process.env.PUBLIC_URL+'/images/video_profile.png',
             title: '루루가 디디에게 덤볐어요!',
@@ -90,7 +91,7 @@ function App() {
         },
         {
             id: 8,
-            url: 'video_url',
+            url: 'HRY1jHX2YTc',
             img: process.env.PUBLIC_URL+'/images/video_img.png',
             profile: process.env.PUBLIC_URL+'/images/video_profile.png',
             title: '루루가 디디에게 덤볐어요!',
@@ -100,7 +101,7 @@ function App() {
         },
         {
             id: 9,
-            url: 'video_url',
+            url: 'HRY1jHX2YTc',
             img: process.env.PUBLIC_URL+'/images/video_img.png',
             profile: process.env.PUBLIC_URL+'/images/video_profile.png',
             title: '루루가 디디에게 덤볐어요!',
@@ -110,7 +111,7 @@ function App() {
         },
         {
             id: 10,
-            url: 'video_url',
+            url: 'HRY1jHX2YTc',
             img: process.env.PUBLIC_URL+'/images/video_img.png',
             profile: process.env.PUBLIC_URL+'/images/video_profile.png',
             title: '루루가 디디에게 덤볐어요!',
@@ -120,7 +121,7 @@ function App() {
         },
         {
             id: 11,
-            url: 'video_url',
+            url: 'HRY1jHX2YTc',
             img: process.env.PUBLIC_URL+'/images/video_img.png',
             profile: process.env.PUBLIC_URL+'/images/video_profile.png',
             title: '루루가 디디에게 덤볐어요!',
@@ -130,7 +131,7 @@ function App() {
         },
         {
             id: 12,
-            url: 'video_url',
+            url: 'HRY1jHX2YTc',
             img: process.env.PUBLIC_URL+'/images/video_img.png',
             profile: process.env.PUBLIC_URL+'/images/video_profile.png',
             title: '루루가 디디에게 덤볐어요!',
@@ -140,7 +141,7 @@ function App() {
         },
         {
             id: 13,
-            url: 'video_url',
+            url: 'HRY1jHX2YTc',
             img: process.env.PUBLIC_URL+'/images/video_img.png',
             profile: process.env.PUBLIC_URL+'/images/video_profile.png',
             title: '루루가 디디에게 덤볐어요!',
@@ -170,6 +171,9 @@ function App() {
                         <Content>
                             <h2>trending</h2>
                         </Content>
+                    </Route>
+                    <Route path="/mytube_react/watch">
+                        <Watch id={0} videos={videos}></Watch>
                     </Route>
                 </Switch>
 			</div>

@@ -1,0 +1,27 @@
+.relatedVideo{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 8px;
+}
+
+.videoImg{
+    margin-right: 8px;
+}
+.videoImg img{
+    width:168px;
+    height:94px;
+}
+.videoContent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.videoTitle {
+	margin: 0 0 6px;
+}
+.videoName,
+.videoViewAndTime {
+    color: #606060;
+    font-size: 0.9rem;
+}
