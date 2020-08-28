@@ -1,26 +1,27 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 function Video(props) {
     const {id, videos} = props
 	return (
 		<div className="grid_video">
 			<div className="video_img">
-				<a href={`/mytube_react/watch?v=${videos[id].url}`}>
+				<Link to={`/mytube_react/watch?v=${videos[id].url}`}>
 					<img alt="" src={videos[id].img} />
-				</a>
+				</Link>
 			</div>
 			<div className="video_content">
 				<div className="video_profile">
-					<a href={videos[id].name}>
+					<Link to={videos[id].name}>
 						<img alt="" src={videos[id].profile} />
-					</a>
+					</Link>
 				</div>
 				<div className="video_text">
 					<div className="video_title">{videos[id].title}</div>
 					<div className="video_name">
-						<a href={videos[id].name}>
+						<Link to={videos[id].name}>
                             {videos[id].name}
-                        </a>
+                        </Link>
 					</div>
 					<div className="video_viewAndTime">조회수 {videos[id].view}회 ㆍ {videos[id].time}</div>
 				</div>
