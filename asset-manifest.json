@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/mytube_react/static/css/main.b241c8a2.chunk.css",
-    "main.js": "/mytube_react/static/js/main.0ccfb37b.chunk.js",
-    "main.js.map": "/mytube_react/static/js/main.0ccfb37b.chunk.js.map",
+    "main.css": "/mytube_react/static/css/main.c6da7940.chunk.css",
+    "main.js": "/mytube_react/static/js/main.e3397cc3.chunk.js",
+    "main.js.map": "/mytube_react/static/js/main.e3397cc3.chunk.js.map",
     "runtime-main.js": "/mytube_react/static/js/runtime-main.56e947a3.js",
     "runtime-main.js.map": "/mytube_react/static/js/runtime-main.56e947a3.js.map",
-    "static/js/2.38b72ad5.chunk.js": "/mytube_react/static/js/2.38b72ad5.chunk.js",
-    "static/js/2.38b72ad5.chunk.js.map": "/mytube_react/static/js/2.38b72ad5.chunk.js.map",
+    "static/js/2.f3c0c1d5.chunk.js": "/mytube_react/static/js/2.f3c0c1d5.chunk.js",
+    "static/js/2.f3c0c1d5.chunk.js.map": "/mytube_react/static/js/2.f3c0c1d5.chunk.js.map",
     "index.html": "/mytube_react/index.html",
-    "precache-manifest.cd47ab477a6bc963b0509eb7c969151f.js": "/mytube_react/precache-manifest.cd47ab477a6bc963b0509eb7c969151f.js",
+    "precache-manifest.8d01307c311e1bcbe7fe4d7f3729e432.js": "/mytube_react/precache-manifest.8d01307c311e1bcbe7fe4d7f3729e432.js",
     "service-worker.js": "/mytube_react/service-worker.js",
-    "static/css/main.b241c8a2.chunk.css.map": "/mytube_react/static/css/main.b241c8a2.chunk.css.map",
-    "static/js/2.38b72ad5.chunk.js.LICENSE.txt": "/mytube_react/static/js/2.38b72ad5.chunk.js.LICENSE.txt"
+    "static/css/main.c6da7940.chunk.css.map": "/mytube_react/static/css/main.c6da7940.chunk.css.map",
+    "static/js/2.f3c0c1d5.chunk.js.LICENSE.txt": "/mytube_react/static/js/2.f3c0c1d5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.56e947a3.js",
-    "static/js/2.38b72ad5.chunk.js",
-    "static/css/main.b241c8a2.chunk.css",
-    "static/js/main.0ccfb37b.chunk.js"
+    "static/js/2.f3c0c1d5.chunk.js",
+    "static/css/main.c6da7940.chunk.css",
+    "static/js/main.e3397cc3.chunk.js"
   ]
 }
