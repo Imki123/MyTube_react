@@ -5,7 +5,7 @@ import RelatedVideo from './RelatedVideo'
 function Watch(props) {
 	const {videos} = props
 	//location에서 video url을 뽑아내서 videos에서 해당 id의 video정보를 가져옴
-	const searchs = window.location.search.replace('?','').split(',')
+	const searchs = window.location.search.replace('?','').split('&')
 	let url, id = -1, video
 	for(let i of searchs){ //searchs에서 url을 가져옴
 		if(i.match('v=')){
