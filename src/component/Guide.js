@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react'
-import {Switch, Route, Link, NavLink} from 'react-router-dom' 
+import React from 'react'
+import {NavLink, Link} from 'react-router-dom' 
 
 function Guide(){
     return(
@@ -52,19 +52,19 @@ function Guide(){
                 </ul>
             </div>
             <div className="guide_division" id="guide_6">
-                <a>정보</a>
-                <a>프레스</a>
-                <a>저작권</a>
-                <a>문의하기</a>
-                <a>크리에이터</a>
-                <a>광고</a>
-                <a>개발자</a>
+                <Link to=''>정보</Link>
+                <Link to=''>프레스</Link>
+                <Link to=''>저작권</Link>
+                <Link to=''>문의하기</Link>
+                <Link to=''>크리에이터</Link>
+                <Link to=''>광고</Link>
+                <Link to=''>개발자</Link>
                 <br/><br/>
-                <a>이용약관</a>
-                <a>개인정보 보호</a>
-                <a>정책 및 안전</a>
-                <a>YouTube 작동의 원리</a>
-                <a>새로운 기능 테스트하기</a>
+                <Link to=''>이용약관</Link>
+                <Link to=''>개인정보 보호</Link>
+                <Link to=''>정책 및 안전</Link>
+                <Link to=''>YouTube 작동의 원리</Link>
+                <Link to=''>새로운 기능 테스트하기</Link>
                 <br/><br/><br/>
                 <div id="guide_footer">
                     © 2020 imki123<br/>
