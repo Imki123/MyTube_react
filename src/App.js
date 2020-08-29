@@ -1,11 +1,12 @@
 import React from 'react'
-import {Switch, Route} from 'react-router-dom' 
+import {Switch, Route, Redirect} from 'react-router-dom' 
 import './App.css'
 import Header from './component/Header'
 import Guide from './component/Guide'
 import Video from './component/Video'
 import Content from './component/Content'
 import Watch from './component/Watch'
+import NotFoundPage from './component/NotFoundPage';
 
 function App() {
 	const videos=[
@@ -152,11 +153,10 @@ function App() {
     ]
 	return (
         <>
-			<Header />
-			<div id="body_container">
-				
-                <Switch>
-                    <Route path="/" exact>
+            <Switch>
+                <Route path="/" exact>
+                    <Header />
+                    <div id="body_container">
                         <Guide />
                         <Content>
                             {
@@ -165,18 +165,23 @@ function App() {
                                 })
                             }
                         </Content>
-                    </Route>
-                    <Route path="/trending">
+                    </div>
+                </Route>
+                <Route path="/trending">
+                    <Header />
+                    <div id="body_container">
                         <Guide />
                         <Content>
                             <h2>trending</h2>
                         </Content>
-                    </Route>
-                    <Route path="/watch">
-                        <Watch id={0} videos={videos}></Watch>
-                    </Route>
-                </Switch>
-			</div>
+                    </div>
+                </Route>
+                <Route path="/watch">
+                    <Header />
+                    <Watch videos={videos}></Watch>
+                </Route>
+                <Route path="*" to="/NotFoundPage" component={NotFoundPage}/>
+            </Switch>
         </>
 	)
 }
