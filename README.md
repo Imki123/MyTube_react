@@ -13,5 +13,6 @@ In developing...
 2020-08-22 : Header, Guide, Video  
 2020-08-23 : Content, react-router  
 2020-08-28 : Watch, RelatedVideo  
+2020-08-29 : NotFoundPage, 404.html, Video: location.search  
 
 Thanks :D
