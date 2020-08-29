@@ -7,7 +7,7 @@ function RelatedVideo(props) {
 	return (
 		<div className="relatedVideo">
 			<div className="videoImg">
-				<Link to={`/mytube_react/watch?v=${videos[id].url}`}>
+				<Link to={`/watch?v=${videos[id].url}`}>
 					<img alt="" src={videos[id].img} />
 				</Link>
 			</div>

@@ -6,7 +6,7 @@ function Header(){
         <div id="header">
             <div id="start">
                 <img className="img_button" id="guide_icon" alt="guide_icon" src={process.env.PUBLIC_URL+"/images/guide_icon.png"}/>
-                <Link to="/mytube_react/"><img className="img_button" id="youtube_logo" alt="youtube_logo" src={process.env.PUBLIC_URL+"/images/youtube_logo.png"}/></Link>
+                <Link to="/"><img className="img_button" id="youtube_logo" alt="youtube_logo" src={process.env.PUBLIC_URL+"/images/youtube_logo.png"}/></Link>
             </div>
             <div id="center">
                 <div id="search_bar">

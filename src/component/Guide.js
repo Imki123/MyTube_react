@@ -6,8 +6,8 @@ function Guide(){
     <div id="guide">
             <div className="guide_division" id="guide_1">
                 <ul>
-                    <NavLink to="/mytube_react/" exact activeClassName="li_active"><li><img alt="home_icon_red" src={process.env.PUBLIC_URL+"/images/home_icon_red.png"}/>홈</li></NavLink>
-                    <NavLink to="/mytube_react/trending" activeClassName="li_active"><li><img alt="trending_icon_gray" src={process.env.PUBLIC_URL+"/images/trending_icon_gray.png"}/>인기</li></NavLink>
+                    <NavLink to="/" exact activeClassName="li_active"><li><img alt="home_icon_red" src={process.env.PUBLIC_URL+"/images/home_icon_red.png"}/>홈</li></NavLink>
+                    <NavLink to="/trending" activeClassName="li_active"><li><img alt="trending_icon_gray" src={process.env.PUBLIC_URL+"/images/trending_icon_gray.png"}/>인기</li></NavLink>
                     <li><img alt="subscribtions_icon_gray" src={process.env.PUBLIC_URL+"/images/subscribtions_icon_gray.png"}/>구독</li>
                     <li><img alt="originals_icon_gray" src={process.env.PUBLIC_URL+"/images/originals_icon_gray.png"}/>Originals</li>
                 </ul>

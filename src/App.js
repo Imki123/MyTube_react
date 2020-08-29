@@ -156,7 +156,7 @@ function App() {
 			<div id="body_container">
 				
                 <Switch>
-                    <Route path="/mytube_react/" exact>
+                    <Route path="/" exact>
                         <Guide />
                         <Content>
                             {
@@ -166,13 +166,13 @@ function App() {
                             }
                         </Content>
                     </Route>
-                    <Route path="/mytube_react/trending">
+                    <Route path="/trending">
                         <Guide />
                         <Content>
                             <h2>trending</h2>
                         </Content>
                     </Route>
-                    <Route path="/mytube_react/watch">
+                    <Route path="/watch">
                         <Watch id={0} videos={videos}></Watch>
                     </Route>
                 </Switch>

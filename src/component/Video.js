@@ -6,7 +6,7 @@ function Video(props) {
 	return (
 		<div className="grid_video">
 			<div className="video_img">
-				<Link to={`/mytube_react/watch?v=${videos[id].url}`}>
+				<Link to={`/watch?v=${videos[id].url}`}>
 					<img alt="" src={videos[id].img} />
 				</Link>
 			</div>
